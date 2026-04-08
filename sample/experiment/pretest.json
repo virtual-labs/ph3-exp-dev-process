@@ -1,16 +1,39 @@
-[{
-	"question": "1.This is a sample question:",
-	"answers": {
-		"a": "This is a sample answer A",
-		"b": "This is a sample answer B"
-	},
-	"correctAnswer": "a"
-}, {
-	"question": "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",
-	"answers": {
-		"a": "<img src='images/1b.png'>",
-		"b": "<img src='images/1a.png'>",
-		"c": "<img src='images/1c.PNG'>"
-	},
-	"correctAnswer": "c"
-}]
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. This is a sample question:",
+      "answers": {
+        "a": "This is a sample answer A",
+        "b": "This is a sample answer B",
+        "c": "This is a sample answer C",
+        "d": "This is a sample answer D"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. This is the reason for answer A to be correct.",
+        "b": "Incorrect. This is the reason for answer B to be incorrect.",
+        "c": "Incorrect. This is the reason for answer C to be incorrect.",
+        "d": "Incorrect. This is the reason for answer D to be incorrect."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. This is a sample question for using images <img src='images/8.PNG'><br> and basic html tags",
+      "answers": {
+        "a": "<img src='images/1a.png'>",
+        "b": "<img src='images/1b.png'>",
+        "c": "<img src='images/1c.png'>",
+        "d": "<img src='images/1d.png'>"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. This is the reason for answer A to be incorrect.",
+        "b": "Incorrect. This is the reason for answer B to be incorrect.",
+        "c": "Correct. This is the reason for answer C to be correct.",
+        "d": "Incorrect. This is the reason for answer D to be incorrect."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}
